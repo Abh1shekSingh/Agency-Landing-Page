@@ -1,0 +1,56 @@
+.heading  {
+    font-size: 7vw;
+    font-family: 'Saira', sans-serif;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    gap: 10em;
+    
+}
+
+.about_content .about_left{
+    width: 30%;
+}
+
+.about_content .about_left h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 4vw;
+    font-weight: 300;
+}
+
+.about_content .about_right {
+    width: 40%;
+}
+
+.about_content .about_right p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-left: 1em;
+    text-align: justify;
+}
+
+.about_content .about_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.about_content .about_right button {
+    padding: 1em 2em;
+    outline: none;
+    border: none;
+    background-color: #edbfff;
+    border-radius: 10px;
+}
+
